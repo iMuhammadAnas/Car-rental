@@ -1,3 +1,4 @@
+import { IconChevronRight } from "@tabler/icons-react";
 import MainImg from "../images/chooseUs/main.png";
 import Box1 from "../images/chooseUs/icon1.png";
 import Box2 from "../images/chooseUs/icon2.png";
@@ -28,7 +29,7 @@ function ChooseUs() {
                 </p>
                 <a href="#home">
                   Find Details &nbsp;
-                  <i className="fa-solid fa-angle-right"></i>
+                  <IconChevronRight />
                 </a>
               </div>
               <div className="text-container__right">

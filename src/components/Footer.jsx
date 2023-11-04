@@ -1,3 +1,4 @@
+import { IconMail, IconPhoneCall } from "@tabler/icons-react";
 function Footer() {
   return (
     <>
@@ -14,7 +15,7 @@ function Footer() {
               </li>
               <li>
                 <a href="tel:123456789">
-                  <i className="fa-solid fa-phone"></i> &nbsp; (123) -456-789
+                <IconPhoneCall /> &nbsp; (123) -456-789
                 </a>
               </li>
 
@@ -23,7 +24,7 @@ function Footer() {
                   href="mailto: 
                 carrental@gmail.com"
                 >
-                  <i className="fa-solid fa-envelope"></i>
+                  <IconMail />
                   &nbsp; calebjephuneh@gmail.com
                 </a>
               </li>

@@ -2,6 +2,10 @@ import { Link } from "react-router-dom";
 import BgShape from "../images/hero/hero-bg.png";
 import HeroCar from "../images/hero/main-car.png";
 import { useEffect, useState } from "react";
+import {
+  IconChevronRight,
+  IconCircleCheck,
+} from "@tabler/icons-react";
 
 function Hero() {
   const [goUp, setGoUp] = useState(false);
@@ -51,10 +55,10 @@ function Hero() {
                   className="hero-content__text__btns__book-ride"
                   to="/"
                 >
-                  Book Ride &nbsp; <i className="fa-solid fa-circle-check"></i>
+                  Book Ride &nbsp; <IconCircleCheck />
                 </Link>
                 <Link className="hero-content__text__btns__learn-more" to="/">
-                  Learn More &nbsp; <i className="fa-solid fa-angle-right"></i>
+                  Learn More &nbsp; <IconChevronRight />
                 </Link>
               </div>
             </div>
@@ -73,7 +77,7 @@ function Hero() {
           onClick={scrollToTop}
           className={`scroll-up ${goUp ? "show-scroll" : ""}`}
         >
-          <i className="fa-solid fa-angle-up"></i>
+          ^
         </div>
       </section>
     </>
