@@ -19,6 +19,7 @@ function App() {
         <Route path="testimonials" element={<TestimonialsPage />} />
         <Route path="team" element={<Team />} />
         <Route path="contact" element={<Contact />} />
+        <Route path="*" element={<Home />} />
       </Routes>
     </>
   );
